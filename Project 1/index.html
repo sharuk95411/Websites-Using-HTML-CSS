@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shahrukh Fitness</title>
+    <link rel="stylesheet" href="CSS/Style.css">
+    <style>
+        /* CSS reset */
+        body {
+            color: aliceblue;
+            margin: 0px;
+            padding: 0px;
+            background-image: url(images/bg.jpg);
+        }
+
+        .left {
+            display: inline-block;
+            position: absolute;
+            top: 20px;
+            left: 34px;
+            /* border: 2px solid; */
+            /* border-color: aqua;  */
+            font-size: 20px;
+        }
+
+        .mid {
+
+            display: block;
+            width: 39%;
+            height: 60px;
+            margin: 20px auto;
+            /* border: 2px solid; */
+            /* border-color: blue; */
+        }
+
+        .right {
+            position: absolute;
+            top: 30px;
+            right: 34px;
+            display: inline-block;
+            /* border: 2px solid; */
+            /* border-color: brown; */
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 20px;
+        }
+
+        .navbar li a {
+
+            color: aliceblue;
+            display: inline-block;
+            text-decoration: none;
+            padding: 10px 10px;
+        }
+
+        .navbar li a:hover {
+            text-decoration: underline;
+            color: aqua;
+        }
+
+        .left img {
+            width: 100px;
+            filter: invert(100%);
+        }
+
+        .left div {
+            text-align: center;
+        }
+
+        .btn {
+            padding: 2px 20px;
+            margin: 3px 2px;
+            background-color: black;
+            color: white;
+            border: 2px solid gray;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: aqua;
+        }
+
+        .container {
+            border: 2px solid rgb(206, 206, 214); 
+            padding: 5px;
+            margin: 40px;
+            width: 40%;
+            position: absolute;
+            left: 370px;
+            top: 150px;
+            border-radius: 10px;
+            
+        }
+        .myform input{
+            text-align: center;
+            border: 2px solid black;
+            display: block;
+            width: 40%;
+            margin: 5px auto;
+            border-radius: 4px;
+            font-size: 17px;
+        }
+        .container button {
+            display: block;
+            width: 20%;
+            margin: 15px auto;
+        }
+        .container h2{
+            text-align: center;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header class="header">
+
+        <div class="left">
+            <img src="images/logo.png" alt="">
+            <div>Shahrukh</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#"> Home</a></li>
+                <li><a href="#"> Contact Us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#"> About Us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call Us</button>
+            <button class="btn"> Mail Us</button>
+        </div>
+
+    </header>
+
+    <div class="container">
+        <h2>Join The Best Gym of Khairabad</h2>
+        <form action="No Action.php">
+         <div class="myform">
+          <input type="text" placeholder="Enter Your Name">
+        </div>
+        <div class="myform">
+            <input type="text" placeholder="Enter Your Age">
+          </div>
+          <div class="myform">
+            <input type="text" placeholder="Enter Your Gender">
+          </div>
+          <div class="myform">
+            <input type="text" placeholder="Enter Your Address">
+          </div>
+  <button class="btn">Submit</button>
+        </form>
+        
+  </div>
+
+</body>
+
+</html>
