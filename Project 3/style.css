@@ -1,0 +1,97 @@
+*,
+*::after,*::before{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+}
+/* ========= Utility Classes =============== */
+.container
+{
+    max-width: 1200px;
+    width: 90%;
+    margin: auto;
+}
+.btn{
+    border-radius: 50px;
+     display: inline block; 
+    padding: 0.5em 2em;
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+    border: 2px solid black;
+    margin-top: 5px;
+    text-transform: uppercase;
+    font-weight: 500;
+
+}
+ .btn-primary{
+     color: #fff;
+     background: rgb(58, 133, 58);
+ }
+
+/* ========= Navbar styling for desktop menu ============= */
+.navbar input[type='checkbox'],
+navbar .hamburger-lines{
+    display: none;
+}
+.navbar {
+    box-shadow: 0px 5px 10px 0px rgb(163, 142, 19);
+    position: fixed;
+    width: 100%;
+    background: #fff;
+    color: black;
+    opacity: 0.85;
+    z-index: 999;
+}
+.navbar-container {
+    display: flex;
+    justify-content: space-around;
+    height: 40px;
+    align-items: center;
+}
+.menu-items {
+    order: 2;
+    display: flex;
+}
+.logo{
+    order: 1;
+    font-size: 3rem;
+}
+.menu-items li{
+    list-style: none;
+    margin-left: 1.5rem;
+    font-size: 1.8rem;
+}
+.navbar a{
+    color: rgb(192, 221, 26);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease-in-out;
+}
+.navbar a:hover{
+    color: rgb(32, 17, 243);
+}
+
+/* ============== Showcase Styling ========== */
+.showcase-area{
+    border: 2px solid rgb(36, 6, 173);
+    height: 50vh;
+    background: url("./Images/header-image2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.showcase-container{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-size: 1.6rem;
+
+}

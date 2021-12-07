@@ -1,0 +1,49 @@
+.menu-items
+{
+ padding-top: 40px;   
+ display: none;
+ 
+}
+.hambarger-menu input[type="checkbox"]:checked ~ .menu-items{
+    display: block;
+}
+li{
+    list-style: none;
+    padding: 2px;
+}
+.hambarger-menu{
+    border: 2px solid rebeccapurple;
+    position: relative;
+    
+}
+.ham-lines{
+    position: absolute;
+    width: 40px;
+    height: 32px;
+    background :red ;
+    left: 7px;
+    top: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 2;
+}
+.ham-lines .line{
+    display: block;
+    height: 4px;
+    width: 100%;
+    background: black;
+}
+
+.hambarger-menu input{
+    width: 40px;
+    height: 32px;
+    /* left: -10px; */
+     position: absolute;
+     display: block;
+     left: 5px;
+     top: 5px; 
+     z-index: 5;
+     opacity: 0;
+     
+}
