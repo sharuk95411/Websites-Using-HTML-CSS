@@ -280,3 +280,109 @@ navbar .hamburger-lines{
     color: #117964;
     font-weight: 700;
 }
+
+/* ======== Testimonial Styling ============== */
+.testimonials{
+    padding: 1rem 0rem ;
+    /* border: 2px solid gold; */
+    background: rgb(243, 243, 243);
+
+}
+.testimonial-title{
+    text-align: center;
+    font-size: 3rem;
+    color: #117964;
+    font-weight: 400;
+}
+.testimonial-container{
+    display: flex;
+    /* border: 2px solid green; */
+    justify-content: space-between;
+    font-size: 1.6rem; 
+    padding: 1rem;
+}
+.testimonial-box .checked{
+    color: #ff9529;
+}
+.testimonial-box .testimonial-text{
+    margin: 1rem 0;
+    color: #444;
+}
+.testimonial-box{
+    text-align: center;
+    padding: 1rem;
+}
+.customer-photo img{
+    display: block;
+    width: 100px;
+    border-radius: 50%;
+    height: 100px;
+    object-fit: cover;
+    object-position: center;
+    margin: auto;
+}
+/* ====== Contact us Styling =======  */
+#contact{
+    padding: 5rem 0;
+    background: rgb(226,226,226);
+}
+.contact-container{
+    display: flex;
+    background: #fff;
+}
+.contact-image{
+    width: 50%;
+}
+.contact-image img{
+    display: block;
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+}
+.form-container{
+    padding: 1rem;
+    width: 50%;
+    margin: auto;
+}
+.form-container input{
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #ddd;
+    padding: 1rem 0;
+    box-shadow: none;
+    outline: none;
+    margin-bottom: 1rem;
+    color: #444;
+    font-weight: 500;
+}
+.form-container textarea{
+    display: block;
+    width: 100%;
+    height: 50%;
+    border: none;
+    border-bottom: 2px solid #ddd;
+    padding: 1rem 0;
+    margin: 6px; 
+}
+.form-container h2{
+    font-size: 3rem;
+    font-weight: 400;
+    color: #444;
+    margin-bottom: 1rem 0;
+}
+.form-container a{
+    font-size: 1.2rem;
+ margin-left: 0.3rem;
+}
+
+#footer h2{
+    text-align: center;
+    font-size: 2rem;
+    padding: 2rem;
+    font-weight: 500;
+    color: #fff;
+    background: rgb(65, 65, 65);
+
+}
